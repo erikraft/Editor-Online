@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editor Online de HTML CSS JS 💻😉｜DEV・Tools</title>
+  <meta name="description" content="Editor Online de HTML CSS JS 💻🧰｜DEV・Tools" />
+  <meta name="author" content="DEV・Tools, dev.erikraft.com" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link href="https://www.code.origamid.dev/css/style.css">
+</head>
+<body>
+  <div id="monaco"></div>
+
+  <script src="https://www.code.origamid.dev/dist/code.js"></script>
+  <script>
+    const myCode = new code({
+      id: 'monaco',
+      languages: [
+        { name: 'html', lang: 'html', el: 'main', content: '' },
+        { name: 'css', lang: 'css', el: 'style', content: '' },
+        { name: 'js', lang: 'javascript', el: 'script', content: '' },
+      ],
+    });
+  </script>
+  
+</html>
